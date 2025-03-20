@@ -1,0 +1,71 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "samplegit _Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "job_type": "standard",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
+        },
+        "pipeline_parameters": {},
+        "pipeline_path": "samplegit",
+        "snaplex_path": "cloud-dev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "days",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2025-03-22",
+                "end_time": "14:00:00",
+                "when": "on"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2025-03-20",
+        "start_time": "14:00:00",
+        "time_zone": "Asia/Calcutta"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "days",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2025-03-22",
+                "end_time": "14:00:00",
+                "when": "on"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2025-03-20",
+        "start_time": "14:00:00",
+        "time_zone": "Asia/Calcutta"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
