@@ -1,0 +1,20 @@
+{
+	"Lonza-DEV": {
+		"LAAP_URL": "abfs://staging@dlsdatahubtst01.dfs.core.windows.net/Snaplogic/",
+		"LAAP_Account": "../../LAAP/shared/LAAP_ABFS",
+		"Pipeline_Path": "Lonza-DEV/LAAP/Extract_",
+		"Snaplex_Path": "/Lonza-DEV/shared/Lonza-GPlex-Dev"
+	},
+	"Lonza-VAL": {
+		"LAAP_URL": "abfs://staging@dlsdatahubtst01.dfs.core.windows.net/Snaplogic/",
+		"LAAP_Account": "../../LAAP/shared/LAAP_ABFS",
+		"Pipeline_Path": "Lonza-VAL/LAAP/Extract_",
+		"Snaplex_Path": "/Lonza-VAL/shared/Lonza-GPlex-Val"
+	},
+	"SL-Support": {
+		"LAAP_URL": "abfs://staging@dlsdatahubprd01.dfs.core.windows.net/Snaplogic/",
+		"LAAP_Account": "../../LAAP/shared/LAAP_ABFS",
+		"Pipeline_Path": "SL-Support/LAAP/Extract_",
+		"Snaplex_Path": "/SL-Support/shared/Saimgplex",
+	}
+}
