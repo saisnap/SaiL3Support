@@ -14,7 +14,7 @@
 	"SL-Support": {
 		"LAAP_URL": "abfs://staging@dlsdatahubprd01.dfs.core.windows.net/Snaplogic/",
 		"LAAP_Account": "../../LAAP/shared/LAAP_ABFS",
-		"Pipeline_Path": "SL-Support/LAAP/Extract_",
+		"Pipeline_Path": "SL-Support/LAAP/Extract",
 		"Snaplex_Path": "/SL-Support/shared/Saimgplex",
 	}
 }
